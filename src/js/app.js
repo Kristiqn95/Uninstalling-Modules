@@ -8,7 +8,8 @@ window.addEventListener("DOMContentLoaded", () => {
   const filteredArray = numbersArray.filter(num => isEven(num));
   for(let num of filteredArray) {
     const li = document.createElement("li");
-    li.appendChild(document.createTextNode(`${sum}`));
+    li.appendChild(document.createTextNode(`${num}`));
     ul.appendChild(li);
   }
+
 });
